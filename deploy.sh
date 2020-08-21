@@ -24,6 +24,7 @@ git config --global user.name "yuanhhh"
 
 
 # 链接远程仓库
+git remote add origin https://github.com/yuanhhh/yuanhhh.github.io-.git
 #git remote add origin https://github.com/yuanhhh/yuanhhh.github.io-.git
 
 # 如果你想要部署到 https://USERNAME.github.io
