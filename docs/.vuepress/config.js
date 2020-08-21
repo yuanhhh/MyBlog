@@ -11,7 +11,7 @@ module.exports = {
     },
     themeConfig: {
       nav:[ // 导航栏配置
-        {text: 'Leetcode习题本', link: '/leetcode/'},
+        {text: '数据结构与算法', link: '/leetcode/'},
         {text: 'JAVA基础', link: '/java/' },
       ],
       sidebar: {
