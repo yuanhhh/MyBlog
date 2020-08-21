@@ -12,16 +12,15 @@ cd docs/.vuepress/dist
 # 如果是发布到自己定义的域名
 # echo 'www.mysite.com' >CNAME
 
+# 认证
+git config --global user.email "1556801619@qq.com"
+git config --global user.name "yuanhhh"
+
 git init
 
 git add .
 
 git commit -m 'deploy'
-
-# 认证
-git config --global user.email "1556801619@qq.com"
-git config --global user.name "yuanhhh"
-
 
 # 链接远程仓库
 git remote add origin https://github.com/yuanhhh/yuanhhh.github.io-.git
