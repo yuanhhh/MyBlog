@@ -23,11 +23,11 @@ git add .
 git commit -m 'deploy'
 
 # 链接远程仓库
-git remote add origin https://github.com/yuanhhh/yuanhhh.github.io-.git
+git remote add origin git@github.com:yuanhhh/yuanhhh.github.io.git
 #git remote add origin https://github.com/yuanhhh/yuanhhh.github.io-.git
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f https://github.com/yuanhhh/yuanhhh.github.io-.git master
+git push -f git@github.com:yuanhhh/yuanhhh.github.io.git master
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
