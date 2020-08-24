@@ -20,6 +20,8 @@ module.exports = {
           ],
           '/leetcode/':[
             '',
+            'bit',
+            'binarySearch',
             'doublepoint',
             'dp',
             'bfs',
