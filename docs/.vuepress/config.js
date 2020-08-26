@@ -12,7 +12,7 @@ module.exports = {
     themeConfig: {
       nav:[ // 导航栏配置
         {text: '数据结构与算法', link: '/leetcode/'},
-        {text: 'JAVA基础', link: '/java/' },
+        {text: 'JAVA知识点总结', link: '/java/' },
       ],
       sidebar: {
           '/java/':[
@@ -23,6 +23,7 @@ module.exports = {
             'bit',
             'binarySearch',
             'doublepoint',
+            'slidewindow',
             'dp',
             'bfs',
             'dfs',

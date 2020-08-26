@@ -12,14 +12,10 @@ sidebarDepth: 2
 	</head>
 	<body>
 		<div class="container">
-			<div class="in">
-				<p align="left">本站主要记录个人的学习内容, 近期搭建, 也会持续记录过去个人所掌握的技能,激励自己,持续学习!</p>
-			</div>
-			<div class="in">
-				<p  align="left">本站内容包括但不限于后端技术,前端技术,运维技术,涉及到的语言主要包括Java, Python, GoLang等.</p>
-			</div>
-			<div class="in">
-				<p  align="left">本站正在开发中, 后续会加入更加丰富的内容, 记录生活! 记录工作! 敬请期待... 冲冲冲! </p>
+			<div class="in" text-align="center">
+				<p align="justify">本站主要记录个人的学习内容, 近期搭建, 也会持续记录过去个人所掌握的技能,激励自己,持续学习!</p>
+				<p  align="justify">本站内容包括但不限于后端技术,前端技术,运维技术,涉及到的语言主要包括Java, Python, GoLang等.</p>
+				<p  align="justify">本站正在开发中, 后续会加入更加丰富的内容, 记录生活! 记录工作! 敬请期待... 冲冲冲! </p>
 			</div>
 		</div>
         <div text-align="center">
@@ -68,13 +64,12 @@ html body{
 
 
 .in {
-	width: 30%;
 	display: inline-block;
 }
 
 p {
-    margin-top: 0;
-    padding:0 3% 0 3%;
+    /* margin-top: 0;
+    padding:0 3% 0 3%; */
 	font-size: 15px;
 }
 
@@ -163,5 +158,6 @@ p {
 :grapes:
 :watermelon:
 :strawberry:
-:peach:                                                                                                                                                   
+:peach:    
+                                                                                                                                             
 
