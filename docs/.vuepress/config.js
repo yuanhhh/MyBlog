@@ -17,6 +17,7 @@ module.exports = {
       sidebar: {
           '/java/':[
             '',
+            'designpattern'
           ],
           '/leetcode/':[
             '',
