@@ -42,5 +42,42 @@ class Solution {
     }
 }
 ``` 
+## 二维数组中的查找
+::: warning 难度: 中等
+在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+:::
+
+```java
+class Solution {
+    /**
+     * 二分法思路,双百; 个人觉得还可以优化, 使用缩小区间方法,使得重复计算更少
+     */
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
+        int n=matrix.length;
+        // 一定要注意n=0, 后续matrix[0] 就是越界, 数组都不存在元素,何来matrix[0];
+        if(n==0) return false;
+        int m=matrix[0].length;
+        if(m==0) return false;
+        // 排除极端情况, 使之不参与更复杂计算
+        if(target<matrix[0][0]||target>matrix[n-1][m-1]) return false;
+        // 常规二分法思路
+        for(int i=0;i<n;i++){
+            int l=0,r=m-1;
+            while(l<=r){
+                int mid=(r-l)/2+l;
+                if(target>matrix[i][mid]){
+                    l=mid+1;
+                }else if(target<matrix[i][mid]){
+                    r=mid-1;
+                }else{
+                    return true;
+                }
+            }
+           
+        }
+        return false;
+    }
+}
+```
  
  
