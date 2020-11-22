@@ -21,6 +21,7 @@ module.exports = {
           ],
           '/leetcode/':[
             '',
+            'listNode',
             'bit',
             'binaryTree',
             'recursion',
