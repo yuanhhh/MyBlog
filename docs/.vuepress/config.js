@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Yuan\'s blog',
-    description: 'Welcome to this Blog',
+    description: ' ',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
       ['link', { rel: 'manifest', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
       ['link', { rel: 'apple-touch-icon', href: '/logo.jpg' }],

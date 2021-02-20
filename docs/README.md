@@ -1,10 +1,14 @@
 ﻿---
 home: true
+heroImage: /imgs/head.jpg
 sidebar: auto
 sidebarDepth: 2
 ---
 
-<!DOCTYPE html>
+<center><b><font color="green">声明: 本站算法题目来自Leetcode</font></b></center>
+
+
+<!-- <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -40,9 +44,6 @@ sidebarDepth: 2
 			<div class="bot">
 				<center><a href="https://www.bilibili.com/" target="_blank"><h3>Bilibili</h3></a> </center>
 			</div>
-			<!-- <div class="bot">
-				<center><a href="https://stackoverflow.com/" target="_blank"><h3>Stackoverflow</h3></a> </center>
-			</div> -->
 			<div class="bot">
 				<center><a href="https://www.githubs.cn/" target="_blank"><h3>Github中文社区</h3></a> </center>
 			</div>
@@ -78,12 +79,12 @@ p {
 	display: inline-block;
 }
 
-</style>
+</style> -->
 
 
 
----
-:tada:
+<!-- --- -->
+<!-- :tada:
 :100: 
 :bamboo: 
 :gift_heart: 
@@ -158,6 +159,6 @@ p {
 :grapes:
 :watermelon:
 :strawberry:
-:peach:    
+:peach:     -->
                                                                                                                                              
 
