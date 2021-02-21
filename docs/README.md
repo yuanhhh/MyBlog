@@ -3,9 +3,18 @@ home: true
 heroImage: /imgs/head.jpg
 sidebar: auto
 sidebarDepth: 2
+footer: Copyright © 2020- Yuanhui
 ---
 
-<center><b><font color="green">声明: 本站算法题目来自Leetcode</font></b></center>
+<center><b><font color="green" size='2'>声明: 本站算法题目来自Leetcode</font></b></center>
+
+
+
+
+
+
+
+
 
 
 <!-- <!DOCTYPE html>
@@ -83,8 +92,8 @@ p {
 
 
 
-<!-- --- -->
-<!-- :tada:
+---
+:tada:
 :100: 
 :bamboo: 
 :gift_heart: 
@@ -159,6 +168,6 @@ p {
 :grapes:
 :watermelon:
 :strawberry:
-:peach:     -->
+:peach:    
                                                                                                                                              
 
