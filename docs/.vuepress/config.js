@@ -13,6 +13,7 @@ module.exports = {
       nav:[ // 导航栏配置
         {text: '数据结构与算法', link: '/leetcode/'},
         {text: 'JAVA知识点总结', link: '/java/' },
+        {text: '生活记录', link: '/life/' },
       ],
       sidebar: {
           '/java/':[
@@ -32,6 +33,9 @@ module.exports = {
             'bfs',
             'dfs',
             'backtrace'
+        ],
+        '/life/':[
+          '',
         ],
       }
       //sidebar: 'auto', // 侧边栏配置
